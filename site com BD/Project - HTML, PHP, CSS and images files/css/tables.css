@@ -1,0 +1,57 @@
+.Ntable {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+table.itens {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #db7c00;
+    width: 1500px;
+    text-align: start;
+  }
+  table.itens td, table.itens th {
+    border: 1px solid #db7c00;
+    padding: 12px 2px;
+   
+  }
+  
+  table.itens tbody td {
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+
+  table.itens tr:nth-child(even) {
+    background: #a35700;
+  }
+  
+  table.itens tr:nth-child(even):hover {
+    background: #000000;
+    color: white;
+  }
+
+  table.itens tr:hover {
+    background: #000000;
+    color: white;
+  }
+
+  table.itens thead {
+    background: #8a4900;
+  }
+
+  table.itens thead th {
+
+    font-size: 22px;
+
+    color: #FFFFFF;
+    text-align: start;
+  }
+
+  body .itens td .btn{
+
+    background-color: red;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+}
+ 
